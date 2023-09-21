@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wall -Werror -Wconversion -g CMakeFiles/ayp2_plantilla_tp1_2c2023.dir/src/Vector.cpp.o CMakeFiles/ayp2_plantilla_tp1_2c2023.dir/src/Item.cpp.o CMakeFiles/ayp2_plantilla_tp1_2c2023.dir/main.cpp.o -o ../programa.exe 

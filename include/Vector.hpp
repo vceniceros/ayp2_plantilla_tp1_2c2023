@@ -17,7 +17,7 @@ class VectorException : public std::exception {
 
 class Vector {
 private:
-    Item** datos;
+    Item **datos;
     size_t cantidadDatos;
     size_t tamanioMaximo;
 public:
@@ -29,7 +29,8 @@ public:
     void alta(Item* dato);
 
     // Pre: El indice debe ser menor o igual que la cantidad de datos.
-    // Post: Agrega el dato antes del dato en la posicion indicada, moviendo todos los elementos siguientes. Si el
+    // Post: Agrega el dato antes del dato en la posicion indicada,
+    // moviendo todos los elementos siguientes. Si el
     // indice es igual a la cantidad de datos, simplemente agrega al final.
     void alta(Item* dato, size_t indice);
 
